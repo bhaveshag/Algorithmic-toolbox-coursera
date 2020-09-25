@@ -21,6 +21,7 @@ public class MajorityElement {
 
         mergesort(a, left, right);
         int mid = (left + right) / 2;
+
         int count = 0;
         for (int i = 0; i < a.length; i++) {
             if (a[i] == a[count])
