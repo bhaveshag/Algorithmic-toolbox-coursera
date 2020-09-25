@@ -18,6 +18,7 @@ public class MajorityElement {
                 return -1;
         }
 
+
         mergesort(a, left, right);
         int mid = (left + right) / 2;
         int count = 0;
