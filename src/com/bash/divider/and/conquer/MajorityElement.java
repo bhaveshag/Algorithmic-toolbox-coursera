@@ -24,13 +24,12 @@ public class MajorityElement {
 
         int count = 0;
         for (int i = 0; i < a.length; i++) {
-            if (a[i] == a[count])
+            if (a[i] == a[mid])
                 count++;
         }
         if (count > a.length/2){
-            return a[mid];
+            return 1;
         }
-
 
         return -1;
     }

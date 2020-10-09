@@ -1,4 +1,4 @@
-package com.bash;
+package com.bash.basic;
 
 import java.util.Scanner;
 
